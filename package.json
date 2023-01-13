@@ -8,6 +8,8 @@
     "prod": "vite --mode prod",
     "build:prod": "vite build --mode prod",
     "preview": "vite preview",
+    "eslint": "eslint . --ext .vue,.js --fix",
+    "format": "prettier --write ./**/*.{html,vue,cjs,json,md}",
     "preinstall": "npx only-allow pnpm"
   },
   "dependencies": {
@@ -18,7 +20,12 @@
     "@commitlint/config-conventional": "^17.4.2",
     "@vitejs/plugin-vue": "^4.0.0",
     "cz-git": "^1.4.1",
+    "eslint": "^8.31.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-vue": "^9.9.0",
     "normalize.css": "^8.0.1",
+    "prettier": "^2.8.2",
     "sass": "^1.57.1",
     "vite": "^4.0.0"
   }

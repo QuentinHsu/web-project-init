@@ -5,5 +5,5 @@
   "editor.tabSize": 2,
   // 默认所有文件在保存时，使用 prettier 进行格式化
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": true,
+  "editor.formatOnSave": true
 }
