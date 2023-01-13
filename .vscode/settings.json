@@ -1,0 +1,9 @@
+{
+  // 强制关闭 VS Code 根据文件类型自动设置 tabsize 的功能，默认是开启的。
+  "editor.detectIndentation": false,
+  // 默认对所有文件重新设定 tabsize
+  "editor.tabSize": 2,
+  // 默认所有文件在保存时，使用 prettier 进行格式化
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+}
