@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    // target，指定要使用的默认 ES 库
+    "target": "esnext",
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  }
+}
