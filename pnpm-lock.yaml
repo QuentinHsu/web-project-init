@@ -2,6 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@vitejs/plugin-vue': ^4.0.0
+  normalize.css: ^8.0.1
   sass: ^1.57.1
   vite: ^4.0.0
   vue: ^3.2.45
@@ -13,6 +14,7 @@ dependencies:
 
 devDependencies:
   '@vitejs/plugin-vue': 4.0.0_vite@4.0.4+vue@3.2.45
+  normalize.css: 8.0.1
   sass: 1.57.1
   vite: 4.0.4_sass@1.57.1
 
@@ -478,6 +480,10 @@ packages:
   /normalize-path/3.0.0:
     resolution: {integrity: sha512-6eZs5Ls3WtCisHWp9S2GUy8dqkpGi4BVSz3GaqiE6ezub0512ESztXUwUB6C6IKbQkY2Pnb/mD4WYojCRwcwLA==}
     engines: {node: '>=0.10.0'}
+    dev: true
+
+  /normalize.css/8.0.1:
+    resolution: {integrity: sha512-qizSNPO93t1YUuUhP22btGOo3chcvDFqFaj2TRybP0DMxkHOCTYwp3n34fel4a31ORXy4m1Xq0Gyqpb5m33qIg==}
     dev: true
 
   /path-parse/1.0.7:
